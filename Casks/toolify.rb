@@ -1,5 +1,5 @@
 cask "toolify" do
-  version "0.0.4"
+  version "0.0.8"
   sha256 :no_check # İlk sürüm için, sonra gerçek SHA256 ekleyeceğiz
 
   url "https://github.com/mehmetsagir/toolify/releases/download/v#{version}/toolify-#{version}-arm64.dmg"
