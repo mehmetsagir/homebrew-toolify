@@ -1,6 +1,6 @@
 cask "toolify" do
-  version "0.0.11"
-  sha256 :no_check # İlk sürüm için, sonra gerçek SHA256 ekleyeceğiz
+  version "0.0.14"
+  sha256 "73dc0aba768b888bf4166fb8480815871c478eb08ed69aba6784c737bc49001e"
 
   url "https://github.com/mehmetsagir/toolify/releases/download/v#{version}/Toolify-#{version}-arm64.dmg"
   name "Toolify"
@@ -25,3 +25,4 @@ cask "toolify" do
     "~/Library/Saved Application State/com.toolify.app.savedState",
   ]
 end
+
